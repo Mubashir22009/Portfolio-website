@@ -3,13 +3,20 @@
     justify-content: space-between;
     background-color: blueviolet;
     border-radius: 5px;
+    align-items: center;
 }
 
-#navbar > div {
+#navbar div {
     display: flex;
     padding: 5px;
 }
 
-.navpage {
-    margin: 3px;
+#navbar .navpage {
+    display: block;
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
 }
