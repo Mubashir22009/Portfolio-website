@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-image {
+    flex: 0 0 auto;
+}
+
+.about-image > img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
