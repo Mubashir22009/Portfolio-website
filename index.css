@@ -1,0 +1,15 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+#navbar > div {
+    display: flex;
+    padding: 5px;
+}
+
+.navpage {
+    margin: 3px;
+}
