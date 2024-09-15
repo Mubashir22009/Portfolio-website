@@ -4,6 +4,7 @@
     align-items: center;
     height: 75vh;
     padding: 20px;
+    flex-direction: row;
 }
 
 .about-info {
@@ -20,4 +21,21 @@
     max-width: 300px;
     height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-info {
+        margin-right: 0;
+        margin-bottom: 20px;
+        order: 2;
+    }
+
+    .about-image img {
+        max-width: 150px;
+        order: 1;
+    }
 }
