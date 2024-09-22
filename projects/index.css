@@ -24,3 +24,13 @@ li {
 li:hover {
     background: #d4d4d4;
 }
+
+a.githublink {
+    float: right;
+}
+
+a.githublink > img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}

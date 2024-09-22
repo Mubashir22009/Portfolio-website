@@ -1,0 +1,39 @@
+[
+    {
+        "content": "Open source maintainer for a Kotlin project"
+    },
+    {
+        "content": "Basic kernel scheduler in assembly for DOS"
+    },
+    {
+        "content": "Manga Reading and organization app in Kotlin/Compose",
+        "github": "https://github.com/mubashir22009/kitabcha"
+    },
+    {
+        "content": "Search engine with Treap data structure in C++"
+    },
+    {
+        "content": "Excel-like spreadsheet program with custom quad linked list implementation in C++"
+    },
+    {
+        "content": "Solitaire in C++ with custom data structures"
+    },
+    {
+        "content": "Snake game in C++/ncurses"
+    },
+    {
+        "content": "Gomoku in C++"
+    },
+    {
+        "content": "Paint clone in Python/tkinter"
+    },
+    {
+        "content": "Chess in C++/SFML"
+    },
+    {
+        "content": "Ludo in C++/SFML"
+    },
+    {
+        "content": "Shogi in C++/ncurses"
+    }
+]
