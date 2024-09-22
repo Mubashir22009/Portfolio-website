@@ -5,5 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const nav = document.createElement("div");
             nav.innerHTML = data;
             document.body.prepend(nav)
+        })
+        .catch(error => {
+            console.error(error);
         });
 });
