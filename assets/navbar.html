@@ -1,16 +1,21 @@
 <style>
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
     #navbar {
         display: flex;
         justify-content: space-between;
-        background-color: #f8e6d0;
+        background-color: #333533;
+        color: white;
         align-items: center;
         margin: 0px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        padding: 12px;
+        font-size: large;
     }
     
     #navbar div {
         display: flex;
         padding: 5px;
+        gap: 5px;
     }
     
     #navbar .navpage {
@@ -22,14 +27,19 @@
         text-decoration: none;
         color: inherit;
     }
+
+    #navbar > .links {
+        display: flex;
+        gap: 12px;
+    }
 </style>
 <nav id="navbar">
     <a href="/">
         <div>
-            Home
+            <i class="fas fa-home" style="font-size: 2em;"></i>
         </div>
     </a>
-    <div>
+    <div class="links">
         <a href="/projects" class="navpage">
             <div>Projects</div>
         </a>

@@ -8,7 +8,7 @@
 }
 
 .about-info {
-    background-color: #ffffff;
+    background-color: #E8EDDF;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@
 }
 
 .contact-container {
-    background-color: #f9f9f9;
+    background-color: #E8EDDF;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -70,4 +70,9 @@
 
 .contact-container a:hover {
     text-decoration: underline;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }

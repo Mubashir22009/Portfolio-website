@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     a.className = "githublink";
                     a.href = element.github;
                     a.target = "_blank";
-                    const img = document.createElement("img");
-                    img.src = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
-                    a.appendChild(img);
+                    const icon = document.createElement("i");
+                    icon.className = "fab fa-github";
+                    a.appendChild(icon);
                     li.appendChild(a);
                 }
 

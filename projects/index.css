@@ -2,7 +2,7 @@
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #e8eddf;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1 {
@@ -14,7 +14,7 @@ ul {
     padding: 0;
 }
 li {
-    background: #e2e2e2;
+    background: #cfdbd5;
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
